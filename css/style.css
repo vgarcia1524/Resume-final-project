@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    html, body: min-height: 100%;
+    max-width: 100%;
 
 }
 
@@ -11,9 +11,11 @@
 nav{
     width: 100%;
     height: 60px;
-    text-align: center;
+    text-align: end;
     position: sticky;
-    background-color: #f6ecef ;
+    background-color: transparent;
+    position: fixed;
+    z-index: 1;
     
 
 }
@@ -25,6 +27,7 @@ nav ul a li{
     display: inline-block;
     margin: 0 -3px;
     padding: 18px 30px;
+    color: white;
 
 }
 
@@ -60,179 +63,73 @@ nav ul a{
   /*--------------Education---------------*/
   
   .container {
-    height: 660px;
+    height: auto;
     width: 100%;
+    
   }
   .edu-img {
-    width: 800px;
-    padding-right: 30px;
+    width: 500px;
+    padding-right: 0px;
     padding-top: 10%;
     
   }
   .edu-text {
     text-align: center;
-    font-size: clamp (1rem, 1vm, 2rem);
-   
+    padding-top:50px;
+
+
   }
-  
-   /*-------------- skill and experience---------------*/
-
-.skill-area{
-    background-color: #f6ecef;
-    height: 500px;
-    border: 1px solid black;
-}
-
-.h2-title {
-    text-align: center;
-    padding-bottom: 40px;
-    margin-top: 100px;
     
-}
-
-.text-t {
-    text-align: center;
-}
-
-.text-p {
-    text-align: center;
-}
-
-/*-------------- card content mgmt---------------*/
-
-.content-mgmt {
-    width: 100%;
-    height: 800px;
-   
-   
-   
-
-}
-.mgmt {
-    text-align: center;
-    padding-top: 20px;
-}
-.card-body {
-    text-align: center;
-}
-/*-------------- Reseller---------------*/
-
-.reseller {
-    width: 100%;
-    height: 800px;
-    background-color: #f6ecef;
-
  
-    
-   
-}
-.box-content {
-    display: flex;
-    justify-content: center;
+/*--------------Skill and experience---------------*/
+
+.container2 {
+  background-color: #f6ecef;
+  width: 100%;
+  justify-content: center;
+  font-size: clamp(1rem, 1rem, 1rem); 
+  padding-top: 50px;
   
 }
-.zbox {
-    position:relative;
-  
-
-  }
-  
-  .blue {
-    background:white;
-    z-index:2; 
-   left: 150px;
-   top: 50px;
-    width: 400px;
-    height: 300px;
-
-    
-  }
-
-.colorbox {
-    background-color: white;
-    background:rgb(255, 255, 255);
-    z-index:3; 
-    width: 45%;
-    height: 500px;
-    top: 95px;
-    left: 200px;
-    display: flex;
- 
-    position: relative;
-   
-}
-
-  .reseller-img {
-    width: 700px;
-    
-  }
-  
-  .red {
-    
-      z-index:3;
-    bottom: 150px;
-    top: 200px;
-
-    
-  }
-  
-  .h2-r {
-    text-align: center;
-  }
-
-  .reseller-p {
+.title1 {
   text-align: center;
+}
+
+.title2 {
+  text-align: center;
+}
+
+.p1 {
+  text-align: center;
+}
 
 
-  }
+/*-------------Reseller----------------*/
+ 
+.padding1 {
+  padding-top: 5%;
+ 
 
-  /*-------------- usda-STF---------------*/
 
-  .usda {
-    width: 100%;
-    height: 700px;
-    border: none;
-  }
 
-  .card-horizontal {
-    display: flex;
-    flex: 1 1 auto;
-    border: none;
-    padding-top: 100px;
 
-  }
 
-  .stf-img {
 
-    width: 600px;
-    height: 400px;
-    margin-left: 100px;
-    margin-top: 50px;
-  }
+/*--------------USDA Cards----------------*/
+.usda-img {
+  width: 100px;
+}
 
-  /*-------------- usda-SnF---------------*/
 
-  .usda-2 {
-    width: 100%;
-    height: 600px;
-    background-color: #f6ecef;
-    border: none;
-  }
 
-  .card-horizontal-2 {
-    display: flex;
-    flex: 1 1 auto;
-    background-color: #f6ecef;
-    border: none;   
-    padding-top: 100px
 
-  }
+/*--------------STF----------------*/
 
-  .snf-img {
 
-    width: 600px;
-    height: 400px;
-    margin-right: 100px;
-    margin-top: 50px;
-    border: none;
-  }
+
+
+
+
+/*--------------SNF----------------*/
+
+
