@@ -5,77 +5,233 @@
 
 }
 
-/*--------------Banner Text----------------*/
+/*--------------Nav Bar----------------*/
 
-
-main{
+nav{
     width: 100%;
-    height: 700px;
-    background-color: brown;
-    background-image: url(./img/student-849822_1920.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.hero-copy{
-    width: 400px;
-    height: auto;
+    height: 60px;
     text-align: center;
-    float: left;
-    position: relative;
-    top: 30%;
-    left: 8%;
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 15px;
-    box-shadow:5px 5px rgba(136, 136, 136, 0.58) ;
-  
-}
-.hero-copy h2{
-    text-shadow:1px 1px rgba(136, 136, 136, 0.58) ;
-    text-transform: uppercase;
-    font-family: 'Dancing Script', cursive;
+    position: sticky;
+    background-color: #f6ecef ;
     
+
 }
-.hero-copy p{
+nav ul{
+    list-style-type: none;
+    float:center;
+}
+nav ul a li{
+    display: inline-block;
+    margin: 0 -3px;
+    padding: 18px 30px;
+
+}
+
+nav ul a li:hover{
+    background-color: rgba(0, 0, 0, 0.15);
+}
+nav ul a li:active{
+    background-color: rgba(0, 0, 0, 0.286);
+}
+nav ul a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
     font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
 
-/*--------------Education Section---------------*/
-.education-right{
-    height: 500px;
-    width: 50%;
-    text-align: center;
-    
-    float: right;
-}
-.education-left{
-    height: 500px;
-    width: 50%;
-    text-align: center;
-    
-    float: left;
+/*--------------Banner Text----------------*/
 
-}
 
-.bio-img {
-    height: 90%;
-    width: 80%;
-
-}
-
-li {
-    list-style: none;
-}
-
-/*--------------skill area--------------*/
-
-aside{
-    height: 500px;
+.centered {
+    height:200px;
     width: 100%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius:20px ;
+    background-color: rgba(0, 0, 0, 0.381);
+    padding:30px;
     text-align: center;
-    border: 1px solid rgba(0, 0, 0, 0.337);
-    float: right;
-    background-color:#f6ecef;
+  }
+
+  /*--------------Education---------------*/
+  
+  .container {
+    height: 660px;
+    width: 100%;
+  }
+  .edu-img {
+    width: 800px;
+    padding-right: 30px;
+    padding-top: 10%;
+    
+  }
+  .edu-text {
+    text-align: center;
+    font-size: clamp (1rem, 1vm, 2rem);
+   
+  }
+  
+   /*-------------- skill and experience---------------*/
+
+.skill-area{
+    background-color: #f6ecef;
+    height: 500px;
+    border: 1px solid black;
 }
+
+.h2-title {
+    text-align: center;
+    padding-bottom: 40px;
+    margin-top: 100px;
+    
+}
+
+.text-t {
+    text-align: center;
+}
+
+.text-p {
+    text-align: center;
+}
+
+/*-------------- card content mgmt---------------*/
+
+.content-mgmt {
+    width: 100%;
+    height: 800px;
+   
+   
+   
+
+}
+.mgmt {
+    text-align: center;
+    padding-top: 20px;
+}
+.card-body {
+    text-align: center;
+}
+/*-------------- Reseller---------------*/
+
+.reseller {
+    width: 100%;
+    height: 800px;
+    background-color: #f6ecef;
+
+ 
+    
+   
+}
+.box-content {
+    display: flex;
+    justify-content: center;
+  
+}
+.zbox {
+    position:relative;
+  
+
+  }
+  
+  .blue {
+    background:white;
+    z-index:2; 
+   left: 150px;
+   top: 50px;
+    width: 400px;
+    height: 300px;
+
+    
+  }
+
+.colorbox {
+    background-color: white;
+    background:rgb(255, 255, 255);
+    z-index:3; 
+    width: 45%;
+    height: 500px;
+    top: 95px;
+    left: 200px;
+    display: flex;
+ 
+    position: relative;
+   
+}
+
+  .reseller-img {
+    width: 700px;
+    
+  }
+  
+  .red {
+    
+      z-index:3;
+    bottom: 150px;
+    top: 200px;
+
+    
+  }
+  
+  .h2-r {
+    text-align: center;
+  }
+
+  .reseller-p {
+  text-align: center;
+
+
+  }
+
+  /*-------------- usda-STF---------------*/
+
+  .usda {
+    width: 100%;
+    height: 700px;
+    border: none;
+  }
+
+  .card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+    border: none;
+    padding-top: 100px;
+
+  }
+
+  .stf-img {
+
+    width: 600px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+
+  /*-------------- usda-SnF---------------*/
+
+  .usda-2 {
+    width: 100%;
+    height: 700px;
+    background-color: #f6ecef;
+    border: none;
+  }
+
+  .card-horizontal-2 {
+    display: flex;
+    flex: 1 1 auto;
+    background-color: #f6ecef;
+    border: none;   
+    padding-top: 100px
+
+  }
+
+  .snf-img {
+
+    width: 600px;
+    height: 400px;
+    margin-right: 100px;
+    margin-top: 50px;
+    border: none;
+  }
