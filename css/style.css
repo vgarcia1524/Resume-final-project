@@ -104,32 +104,69 @@ nav ul a{
 }
 
 
-/*-------------Reseller----------------*/
+/*-------------Contact us form----------------*/
  
-.padding1 {
-  padding-top: 5%;
- 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
 
-
-
-
-
-/*--------------USDA Cards----------------*/
-.usda-img {
-  width: 100px;
+input[type=submit]:hover {
+  background-color: #45a049;
 }
 
 
+.container3 {
+  border-radius: 5px;
+  background-color:#f6ecef;
+  padding: 10px;
+}
 
 
-/*--------------STF----------------*/
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
 
 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.footer1 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.145);
 
 
-/*--------------SNF----------------*/
+}
 
+.copyright {
 
+}
