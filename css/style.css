@@ -163,6 +163,7 @@ input[type=submit]:hover {
   text-align: center;
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.145);
+  padding: 2;
 
 
 }
